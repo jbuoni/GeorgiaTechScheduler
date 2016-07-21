@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link href="{{ url_for('static', filename='styles/template.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('bower.static', filename='bootstrap/dist/css/bootstrap.min.css') }}" >
+ 	<link href="{{ url_for('bower.static', filename='bootstrap-modal/css/bootstrap-modal.css') }}" rel="stylesheet" />
+
+    <script src="{{ url_for('bower.static', filename='jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('bower.static', filename='bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('bower.static', filename='bootstrap-modal/js/bootstrap-modalmanager.js') }}"></script>
+    <script src="{{ url_for('bower.static', filename='bootstrap-modal/js/bootstrap-modal.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/template.js') }}"></script>
+    <title>{% block title %}{% endblock %} - OMSCS Scheduler</title>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var username = '{{authData.name}}';
+
+            var url = window.location.href;
+            if (url.indexOf('student_list') != -1) {
+                $('#students').addClass('active');
+            } else if (url.indexOf('user') != -1) {
+                $('#student_info').addClass('active');
+            } else if (url.indexOf('course_data') != -1) {
+                $('#course_aggregate_data').addClass('active');
+            } else if (url.indexOf('admin_info') != -1) {
+                $('#admin_info').addClass('active');
+            } else if (url.indexOf('scheduler') != -1) {
+                $('#scheduler').addClass('active');
+            }
+
+            docready();
+        });
+    </script>
+    {% endblock %}
+  </head>
+  <body>
+    <header class="header">
+        {% block header %}
+        <div class="page-header navbar-inverse template-header">
+            <div class="inline">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            {% if authData.isStudent or authData.isDeveloper %}
+                                <li id="student_info"><a href="{{ url_for('main.studentInfo', username=authData.name) }}">Student Information</a></li>
+                                <li id="scheduler"><a href="{{ url_for('main.logout', username=authData.name) }}">Logout</a></li>
+                            {% endif %}
+                            {% if authData.isAdmin or authData.isDeveloper %}
+                                <li id="admin_info"><a href="{{ url_for('main.adminInfo', username=authData.name) }}">Administrator Information</a></li>
+                                <li id="course_aggregate_data"><a href="{{ url_for('main.aggregateCourseData', username=authData.name) }}">Course Aggregate Data</a></li>
+                                <li id="students"><a href="{{ url_for('main.studentList', username=authData.name) }}">Students</a></li>
+                                <li id="scheduler"><a href="{{ url_for('main.schedulerView', username=authData.name) }}">Scheduler</a></li>
+                                <li id="scheduler"><a href="{{ url_for('main.logout', username=authData.name) }}">Logout</a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </nav>
+                <h1 class="header-text text-center">OMSCS Scheduler</h1>
+                <img src="{{ url_for('static', filename='images/gt.short.white.png') }}" class="img-responsive pull-right logo">
+            </div>
+        </div>
+        {% endblock %}
+    </header>
+    <div class="wrap">
+        <div class="main" class="container clear-top">
+            <div class="content">{% block content %}{% endblock %}</div>
+        </div>
+    </div>
+    <footer class="footer">
+      {% block footer %}
+        <div class="container">
+        </div>
+      {% endblock %}
+    </footer>
+  </body>
+</html>

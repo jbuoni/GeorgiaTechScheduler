@@ -1,0 +1,5 @@
+{
+  "static/styles/template.css": "static/styles/less/template.less",
+  "static/styles/student.css": "static/styles/less/student.less",
+  "static/styles/login.css": "static/styles/less/login.less"
+}

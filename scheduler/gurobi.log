@@ -1,0 +1,481 @@
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 00:04:48 2016
+
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 02:40:44 2016
+
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 02:46:38 2016
+
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 02:58:24 2016
+
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 03:04:00 2016
+
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 14:37:35 2016
+
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 14:45:46 2016
+
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 28 rows, 4 columns and 8 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 4 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 15:17:05 2016
+
+Optimize a model with 28 rows, 5 columns and 10 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 6e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 9
+Presolve removed 28 rows and 5 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0%
+Optimize a model with 236 rows, 54 columns and 108 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 8e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 168
+Presolve removed 236 rows and 54 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.680000000000e+02, best bound 1.680000000000e+02, gap 0.0%
+Optimize a model with 236 rows, 54 columns and 108 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 8e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 168
+Presolve removed 236 rows and 54 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.680000000000e+02, best bound 1.680000000000e+02, gap 0.0%
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 17:37:44 2016
+
+Optimize a model with 236 rows, 54 columns and 108 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 8e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 168
+Presolve removed 236 rows and 54 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.680000000000e+02, best bound 1.680000000000e+02, gap 0.0%
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 19:48:23 2016
+
+Optimize a model with 218 rows, 27 columns and 54 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 8e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 84
+Presolve removed 218 rows and 27 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.400000000000e+01, best bound 8.400000000000e+01, gap 0.0%
+Optimize a model with 218 rows, 27 columns and 54 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 8e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 84
+Presolve removed 218 rows and 27 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.400000000000e+01, best bound 8.400000000000e+01, gap 0.0%
+
+Gurobi 6.5.1 (mac64) logging started Sat Apr 23 20:59:10 2016
+
+Optimize a model with 218 rows, 29 columns and 58 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [2e+00, 8e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [2e+00, 5e+01]
+Found heuristic solution: objective 89
+Presolve removed 218 rows and 29 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.900000000000e+01, best bound 8.900000000000e+01, gap 0.0%

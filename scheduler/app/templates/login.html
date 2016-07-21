@@ -1,0 +1,25 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "template.html" %}
+{% block title %}Login{% endblock %}
+{% block head %}
+  {{ super() }}
+    <link href="{{ url_for('static', filename='styles/login.css') }}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+
+<div class="login-image">
+    <img src="{{ url_for('static', filename='images/techBee.png') }}" class="img-responsive pull-left">
+</div>
+
+<div class="col-md-4 col-md-offset-1 login-border">
+    <div class="page-header">
+        <h1>Login</h1>
+    </div>
+    {{ wtf.quick_form(form) }}
+</div>
+    {% for message in get_flashed_messages() %}
+        <div class="alert alert-warning">
+        {{ message }}
+    </div>
+    {% endfor %}
+{% endblock %}

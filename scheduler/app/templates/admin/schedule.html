@@ -1,0 +1,61 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "template.html" %}
+{% block title %}Semester Schedule{% endblock %}
+{% block head %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename='scripts/scheduler.js') }}"></script>
+
+    <script type="text/javascript">
+        var semester = 1;
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <th>Course Information</th>
+                    <th>Offered</th>
+                    <th>Current Requests</th>
+                    <th>Capacity</th>
+                    <th>TA Pool</th>
+                    <th>Professor</th>
+                </thead>
+                <tbody>
+                    {% for course in data.courses %}
+                        <tr class="item">
+                            <td>
+                                <span class="course-id" hidden>{{ course.id }}</span>
+                                {{ course.number }} - {{ course.name }}
+                            </td>
+                            <td align="center">
+                                {% if course.offered == 1 %}
+                                    <input type="checkbox" class="checkbox" checked />
+                                {% else %}
+                                    <input type="checkbox" class="checkbox" />
+                                {% endif %}
+                            </td>
+                            <td align="center">
+                                {{ course.requests }}
+                            </td>
+                            <td align="center">
+                                <form action="#">
+                                    <input type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="{{ course.id }}" value="{{ course.max_capacity }}" class="capacity">
+                                </form>
+                            </td>
+                            <td align="center">
+                                <form action="#">
+                                    <input type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="{{ course.id }}" value="{{ course.ta_pool }}" class="ta-pool">
+                                </form>
+                            </td>
+                            <td align="center">
+                                <span class="professor">{{ course.professor }}</span>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <button class="btn pull-right" id="runSchedulerBtn">Run Scheduler</button>
+        </div>
+    </div>
+{% endblock %}

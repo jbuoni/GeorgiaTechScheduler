@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>studentInfo.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Namespaces</h3><ul><li><a href="AdminInfo.html">AdminInfo</a><ul class='methods'><li data-type='method'><a href="AdminInfo.html#._answerQuestion">_answerQuestion</a></li><li data-type='method'><a href="AdminInfo.html#._getQuestionAnswer">_getQuestionAnswer</a></li><li data-type='method'><a href="AdminInfo.html#.docready">docready</a></li></ul></li><li><a href="Scheduler.html">Scheduler</a><ul class='methods'><li data-type='method'><a href="Scheduler.html#._getCourseData">_getCourseData</a></li><li data-type='method'><a href="Scheduler.html#._runGurobi">_runGurobi</a></li><li data-type='method'><a href="Scheduler.html#._saveCourseData">_saveCourseData</a></li><li data-type='method'><a href="Scheduler.html#.docready">docready</a></li></ul></li><li><a href="StudentInfo.html">StudentInfo</a><ul class='methods'><li data-type='method'><a href="StudentInfo.html#._addCourse">_addCourse</a></li><li data-type='method'><a href="StudentInfo.html#._addQuestion">_addQuestion</a></li><li data-type='method'><a href="StudentInfo.html#._generateClickHandlers">_generateClickHandlers</a></li><li data-type='method'><a href="StudentInfo.html#._generatePreferenceTable">_generatePreferenceTable</a></li><li data-type='method'><a href="StudentInfo.html#._getCourseIds">_getCourseIds</a></li><li data-type='method'><a href="StudentInfo.html#._unbindEvents">_unbindEvents</a></li><li data-type='method'><a href="StudentInfo.html#._updateQuestions">_updateQuestions</a></li><li data-type='method'><a href="StudentInfo.html#._updateStudentPreferences">_updateStudentPreferences</a></li></ul></li></ul><h3>Global</h3><ul><li><a href="global.html#templateHeader">templateHeader</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">studentInfo.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @namespace StudentInfo
+ */
+
+var $coursesModal, $questionsModal, $specialization;
+
+function docready() {
+    $specialization = $('#specialization');
+    //Replace unicode characters
+    $specialization.html($specialization.html().replace('(', '').replace(')', '').replace(',', '').replace('\'', '').replace('\'', ''));
+
+    _generateClickHandlers();
+    _generatePreferenceTable();
+
+    $('#courseBtn').on('click', _addCourse);
+    $('#questionBtn').on('click', _addQuestion);
+}
+
+/**
+ * Create click handlers
+ * @private
+ * @memberof StudentInfo
+ */
+function _generateClickHandlers() {
+
+    $('.glyphicon-arrow-up').on('click', function(event) {
+        var courseRow = event.target.parentElement.parentElement.parentElement;
+        var courseID = courseRow.id;
+        var $courseRow = $('#' + courseID);
+
+        $courseRow.prev().before($courseRow);
+
+        _updateStudentPreferences(_getCourseIds(), function(err, result) {
+            if(err)
+                console.log(err);
+            else
+                console.log(result);
+        });
+
+        _generatePreferenceTable();
+    });
+
+    $('.glyphicon-arrow-down').on('click', function(event) {
+        var courseID = event.target.parentElement.parentElement.parentElement.id;
+        var $courseRow = $('#' + courseID);
+        $courseRow.next().after($courseRow);
+
+        _updateStudentPreferences(_getCourseIds(), function(err, result) {
+            if(err)
+                console.log(err);
+            else
+                console.log(result);
+        });
+
+        _generatePreferenceTable();
+    });
+
+    $('.glyphicon-remove').on('click', function(event) {
+        var courseID = event.target.parentElement.parentElement.parentElement.id;
+        var $courseRow = $('#' + courseID);
+        $courseRow.remove();
+
+        _updateStudentPreferences(_getCourseIds(), function(err, result) {
+            if(err)
+                console.log(err);
+            else
+                console.log(result);
+        });
+
+        _generatePreferenceTable();
+    });
+
+    $('#addPreference').on('click', function() {
+        $coursesModal = $('#coursesModal').modal();
+        $coursesModal.modal('show');
+    });
+
+    $('#addQuestion').on('click', function() {
+        $questionsModal = $('#questionsModal').modal();
+        $questionsModal.modal('show');
+    });
+}
+
+/**
+ * Add course to the course preferences table
+ * @private
+ * @memberof StudentInfo
+ */
+function _addCourse() {
+
+    var courseRowId = $('#courseAddSelect').val().replace('course', '');
+    var alreadyAdded = false;
+
+    $('.preference-table-row').each(function () {
+        if(this.id === courseRowId)
+            alreadyAdded = true;
+    });
+
+    if(alreadyAdded) {
+        $('.add-course-error').text('Course already added to preferences');
+    } else {
+
+        var courseIDs = _getCourseIds();
+        courseIDs.push(courseRowId);
+
+        var _updateTable = function(err, response) {
+            $('#preferencesTable > tbody:last-child').append('&lt;tr id="' + courseRowId + '" class="preference-table-row">' +
+                '&lt;td>' + $('#courseAddSelect :selected').text() + '&lt;span class="pull-right">' +
+                '&lt;span class="glyphicon glyphicon-arrow-up icon_padding">&lt;/span>' +
+                '&lt;span class="glyphicon glyphicon-arrow-down icon_padding">&lt;/span>' +
+                '&lt;span class="glyphicon glyphicon-remove icon_padding">&lt;/span>' +
+                '&lt;/span>&lt;/td>&lt;/tr>'
+            );
+
+            _generateClickHandlers();
+        };
+
+        _updateStudentPreferences(courseIDs, _updateTable);
+        _generatePreferenceTable();
+        $coursesModal.modal('hide');
+    }
+}
+
+/**
+ * Returns course id in preference order
+ * @returns {Object[]}
+ * @private
+ * @memberof StudentInfo
+ */
+function _getCourseIds() {
+    var courseIDs = [];
+
+    $('.preference-table-row').each(function () {
+        courseIDs.push(this.id);
+    });
+
+    return courseIDs;
+}
+
+/**
+ * AJAX call to update student preferences
+ * @param {Object[]} courseIDs
+ * @param {function} callback
+ * @private
+ * @memberof StudentInfo
+ */
+function _updateStudentPreferences(courseIDs, callback) {
+
+    var requestData = {
+        semester: semester,
+        courseIDs: courseIDs
+    };
+
+    $.ajax({
+        type: "POST",
+        url: 'http://127.0.0.1:5000/api/students/' + username + '/preferences',
+        data: JSON.stringify({preferences: requestData}),
+        contentType: 'application/json;charset=UTF-8',
+        success: callback
+    });
+}
+
+/**
+ * Call API to save question to database
+ * @param question
+ * @param callback
+ * @private
+ * @memberOf StudentInfo
+ */
+function _updateQuestions(question, callback) {
+    $.ajax({
+            type: "POST",
+            url: 'http://127.0.0.1:5000/api/students/' + username + '/question',
+            data: JSON.stringify({question: question}),
+            contentType: 'application/json;charset=UTF-8',
+            success: callback
+    });
+}
+
+/**
+ * Add question to the questions table
+ * @private
+ * @memberof StudentInfo
+ */
+function _addQuestion() {
+    var question = $('textarea#questionTextArea').val();
+
+    $('#questionsTable > tbody:last-child').append('&lt;tr>&lt;td>' +
+         question + '&lt;/td>&lt;td>&lt;/td>&lt;/tr>' /**&lt;span class="glyphicon glyphicon-ok pull-right">&lt;/span>&lt;/td>&lt;/tr>'**/
+    );
+
+    _updateQuestions(question, function(err, result) {
+        if(err)
+            console.log(err);
+        else
+            console.log(result);
+    });
+}
+
+/**
+ * Updates the table and hides / shows arrow information depending on the position of each row item and the number of rows
+ * @private
+ * @memberof StudentInfo
+ */
+function _generatePreferenceTable() {
+
+    var $firstSpanDownArrow = $('#preferencesTable tbody tr:first-child span.glyphicon-arrow-down');
+    var $secondChildSpan = $('#preferencesTable tbody tr:nth-child(2) span.glyphicon-arrow-up');
+    var $preferencesTableBody = $('#preferencesTable tbody tr');
+
+    if($secondChildSpan)
+        $secondChildSpan.show();
+
+
+    if($preferencesTableBody.length == 1)
+        $firstSpanDownArrow.hide();
+     else
+        $firstSpanDownArrow.show();
+
+
+    $('#preferencesTable tbody tr:first-child span.glyphicon-arrow-up').hide();
+
+}
+
+/**
+ * Unbind events
+ * @param {function} callback
+ * @private
+ * @memberof StudentInfo
+ */
+function _unbindEvents(callback) {
+    $('.glyphicon-arrow-up').off("click");
+    $('.glyphicon-arrow-down').off("click");
+    $('.glyphicon-remove').off("click");
+    $('#addPreference').off("click");
+    $('#addQuestion').off("click");
+    $('#courseBtn').off("click");
+    $('#questionBtn').off("click");
+
+    callback();
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0</a> on Sat Apr 23 2016 21:48:05 GMT-0400 (EDT) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

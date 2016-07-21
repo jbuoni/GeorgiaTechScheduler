@@ -1,0 +1,40 @@
+
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "template.html" %}
+{% block title %}Aggregate Student Data{% endblock %}
+{% block head %}
+  {{ super() }}
+  <!--<link href="{{ url_for('static', filename='styles/student.css') }}" rel="stylesheet">-->
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <th>Course Information</th>
+                    <th>Students Requesting Course</th>
+                    <th>Recommended Students Enrolled</th>
+                    <th>Max Capacity</th>
+                </thead>
+                <tbody>
+                    {% for course in data.courses %}
+                        <tr>
+                            <td>
+                                {{ course.number }} - {{ course.name }}
+                            </td>
+                            <td>
+                                {{ course.enrollment }}
+                            </td>
+                            <td>
+                                {{ course.recommended }}
+                            </td>
+                            <td>
+                                {{ course.max_capacity }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

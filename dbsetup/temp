@@ -1,0 +1,7011 @@
+PRINTING STUDENTS!
+
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54e6"
+    }, 
+    "deptid": 26, 
+    "firstname": "BARBARA", 
+    "gpa": 3.0, 
+    "lastname": "YOUNG", 
+    "requestedcourses": {
+        "3": [
+            "13"
+        ], 
+        "7": [
+            "17"
+        ], 
+        "9": [
+            "18"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 1, 
+    "username": "BYOUNG1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f2"
+    }, 
+    "deptid": 19, 
+    "firstname": "WILLIAM", 
+    "gpa": 2.5, 
+    "lastname": "GLASS", 
+    "requestedcourses": {
+        "2": [
+            "11"
+        ], 
+        "3": [
+            "17"
+        ], 
+        "5": [
+            "18"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 13, 
+    "username": "WGLASS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54fc"
+    }, 
+    "deptid": 28, 
+    "firstname": "RONALD", 
+    "gpa": 2.5, 
+    "lastname": "WILLIAMSON", 
+    "requestedcourses": {
+        "10": [
+            "6"
+        ], 
+        "11": [
+            "7"
+        ], 
+        "12": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 6, 
+    "userid": 23, 
+    "username": "RWILLI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5500"
+    }, 
+    "deptid": 12, 
+    "firstname": "ELIZABETH", 
+    "gpa": 1.5, 
+    "lastname": "WHITE", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "12": [
+            "17"
+        ], 
+        "5": [
+            "8"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 27, 
+    "username": "EWHITE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5501"
+    }, 
+    "deptid": 30, 
+    "firstname": "ANNA", 
+    "gpa": 2.0, 
+    "lastname": "COX", 
+    "requestedcourses": {
+        "2": [
+            "5"
+        ], 
+        "5": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 28, 
+    "username": "ACOX1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5504"
+    }, 
+    "deptid": 25, 
+    "firstname": "RAY", 
+    "gpa": 3.5, 
+    "lastname": "ZIMMERMAN", 
+    "requestedcourses": {
+        "10": [
+            "1"
+        ], 
+        "11": [
+            "14"
+        ], 
+        "12": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 31, 
+    "username": "RZIMME1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5507"
+    }, 
+    "deptid": 29, 
+    "firstname": "CLARA", 
+    "gpa": 1.5, 
+    "lastname": "BRADSHAW", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 34, 
+    "username": "CBRADS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5509"
+    }, 
+    "deptid": 29, 
+    "firstname": "FRED", 
+    "gpa": 3.0, 
+    "lastname": "ROBERSON", 
+    "requestedcourses": {
+        "1": [
+            "13"
+        ], 
+        "6": [
+            "14"
+        ], 
+        "9": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 36, 
+    "username": "FROBER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5517"
+    }, 
+    "deptid": 30, 
+    "firstname": "TIM", 
+    "gpa": 1.5, 
+    "lastname": "GONZALEZ", 
+    "requestedcourses": {
+        "1": [
+            "6"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "5": [
+            "10"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 50, 
+    "username": "TGONZA1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5524"
+    }, 
+    "deptid": 27, 
+    "firstname": "LILLIAN", 
+    "gpa": 2.5, 
+    "lastname": "HENSLEY", 
+    "requestedcourses": {
+        "10": [
+            "5"
+        ], 
+        "12": [
+            "8"
+        ], 
+        "5": [
+            "1"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 63, 
+    "username": "LHENSL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5526"
+    }, 
+    "deptid": 16, 
+    "firstname": "JOHN", 
+    "gpa": 1.5, 
+    "lastname": "SMITH", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "8": [
+            "6"
+        ], 
+        "9": [
+            "9"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 65, 
+    "username": "JSMITH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca552f"
+    }, 
+    "deptid": 30, 
+    "firstname": "MARY", 
+    "gpa": 3.5, 
+    "lastname": "WILSON", 
+    "requestedcourses": {
+        "1": [
+            "5"
+        ], 
+        "11": [
+            "9"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 74, 
+    "username": "MWILSO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5537"
+    }, 
+    "deptid": 30, 
+    "firstname": "WALLACE", 
+    "gpa": 3.0, 
+    "lastname": "REID", 
+    "requestedcourses": {
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "14"
+        ], 
+        "6": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 82, 
+    "username": "WREID1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5538"
+    }, 
+    "deptid": 30, 
+    "firstname": "CATHERINE", 
+    "gpa": 3.0, 
+    "lastname": "FLEMING", 
+    "requestedcourses": {
+        "10": [
+            "10"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "3": [
+            "7"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 83, 
+    "username": "CFLEMI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca553b"
+    }, 
+    "deptid": 29, 
+    "firstname": "JESUS", 
+    "gpa": 4.0, 
+    "lastname": "HUDSON", 
+    "requestedcourses": {
+        "10": [
+            "18"
+        ], 
+        "6": [
+            "5"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 86, 
+    "username": "JHUDSO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5540"
+    }, 
+    "deptid": 30, 
+    "firstname": "ROBERT", 
+    "gpa": 3.0, 
+    "lastname": "RUSH", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "2": [
+            "4"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 91, 
+    "username": "RRUSH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5543"
+    }, 
+    "deptid": 25, 
+    "firstname": "CONSTANCE", 
+    "gpa": 1.0, 
+    "lastname": "HICKS", 
+    "requestedcourses": {
+        "11": [
+            "13"
+        ], 
+        "8": [
+            "7"
+        ], 
+        "9": [
+            "10"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 94, 
+    "username": "CHICKS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca554a"
+    }, 
+    "deptid": 30, 
+    "firstname": "PATRICK", 
+    "gpa": 2.0, 
+    "lastname": "WASHINGTON", 
+    "requestedcourses": {
+        "10": [
+            "10"
+        ], 
+        "11": [
+            "15"
+        ], 
+        "9": [
+            "6"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 101, 
+    "username": "PWASHI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5557"
+    }, 
+    "deptid": 30, 
+    "firstname": "BRANDON", 
+    "gpa": 4.0, 
+    "lastname": "ROSS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "2": [
+            "10"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 114, 
+    "username": "BROSS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca555d"
+    }, 
+    "deptid": 20, 
+    "firstname": "KEVIN", 
+    "gpa": 2.5, 
+    "lastname": "SHERMAN", 
+    "requestedcourses": {
+        "11": [
+            "18"
+        ], 
+        "8": [
+            "12"
+        ], 
+        "9": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 120, 
+    "username": "KSHERM1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5569"
+    }, 
+    "deptid": 30, 
+    "firstname": "PATRICIA", 
+    "gpa": 1.5, 
+    "lastname": "GREEN", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "9": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 132, 
+    "username": "PGREEN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5574"
+    }, 
+    "deptid": 30, 
+    "firstname": "TERRENCE", 
+    "gpa": 1.0, 
+    "lastname": "SANDOVAL", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "2": [
+            "12"
+        ], 
+        "7": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 143, 
+    "username": "TSANDO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca557d"
+    }, 
+    "deptid": 29, 
+    "firstname": "DARLENE", 
+    "gpa": 3.5, 
+    "lastname": "THOMPSON", 
+    "requestedcourses": {
+        "3": [
+            "5"
+        ], 
+        "5": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 152, 
+    "username": "DTHOMP1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5581"
+    }, 
+    "deptid": 4, 
+    "firstname": "MICHAEL", 
+    "gpa": 2.5, 
+    "lastname": "WATERS", 
+    "requestedcourses": {
+        "10": [
+            "12"
+        ], 
+        "7": [
+            "5"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 156, 
+    "username": "MWATER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5582"
+    }, 
+    "deptid": 30, 
+    "firstname": "DOROTHY", 
+    "gpa": 2.0, 
+    "lastname": "RICHARDSON", 
+    "requestedcourses": {
+        "10": [
+            "11"
+        ], 
+        "12": [
+            "17"
+        ], 
+        "6": [
+            "8"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 157, 
+    "username": "DRICHA1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5596"
+    }, 
+    "deptid": 27, 
+    "firstname": "KEVIN", 
+    "gpa": 4.0, 
+    "lastname": "RODRIGUEZ", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "7": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 177, 
+    "username": "KRODRI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5599"
+    }, 
+    "deptid": 26, 
+    "firstname": "JUDITH", 
+    "gpa": 1.5, 
+    "lastname": "THOMPSON", 
+    "requestedcourses": {
+        "10": [
+            "13"
+        ], 
+        "5": [
+            "4"
+        ], 
+        "8": [
+            "9"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 180, 
+    "username": "JTHOMP1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca559b"
+    }, 
+    "deptid": 26, 
+    "firstname": "GERTRUDE", 
+    "gpa": 3.0, 
+    "lastname": "RIVERA", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 182, 
+    "username": "GRIVER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca558a"
+    }, 
+    "deptid": 28, 
+    "firstname": "MARIA", 
+    "gpa": 2.0, 
+    "lastname": "ROBINSON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "4"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 165, 
+    "username": "MROBIN2"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca556a"
+    }, 
+    "deptid": 30, 
+    "firstname": "IAN", 
+    "gpa": 3.0, 
+    "lastname": "ERICKSON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 133, 
+    "username": "IERICK1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5568"
+    }, 
+    "deptid": 30, 
+    "firstname": "JERRY", 
+    "gpa": 3.5, 
+    "lastname": "GILL", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 131, 
+    "username": "JGILL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5567"
+    }, 
+    "deptid": 20, 
+    "firstname": "FERNANDO", 
+    "gpa": 1.0, 
+    "lastname": "TURNER", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "2": [
+            "13"
+        ], 
+        "5": [
+            "14"
+        ], 
+        "6": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 130, 
+    "username": "FTURNE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca556e"
+    }, 
+    "deptid": 22, 
+    "firstname": "HERBERT", 
+    "gpa": 1.0, 
+    "lastname": "HAMILTON", 
+    "requestedcourses": {
+        "1": [
+            "3"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "5": [
+            "14"
+        ], 
+        "9": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 137, 
+    "username": "HHAMIL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca556d"
+    }, 
+    "deptid": 21, 
+    "firstname": "JIMMY", 
+    "gpa": 1.5, 
+    "lastname": "JACOBS", 
+    "requestedcourses": {
+        "11": [
+            "18"
+        ], 
+        "2": [
+            "6"
+        ], 
+        "3": [
+            "15"
+        ], 
+        "6": [
+            "16"
+        ], 
+        "9": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 136, 
+    "username": "JJACOB1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca556c"
+    }, 
+    "deptid": 23, 
+    "firstname": "GEORGE", 
+    "gpa": 4.0, 
+    "lastname": "MILLER", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "1"
+        ], 
+        "8": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 135, 
+    "username": "GMILLE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca556b"
+    }, 
+    "deptid": 30, 
+    "firstname": "MARY", 
+    "gpa": 3.5, 
+    "lastname": "COLLINS", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "3": [
+            "2"
+        ], 
+        "7": [
+            "10"
+        ], 
+        "8": [
+            "12"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 134, 
+    "username": "MCOLLI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5570"
+    }, 
+    "deptid": 30, 
+    "firstname": "CRYSTAL", 
+    "gpa": 2.0, 
+    "lastname": "JACKSON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "10"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 139, 
+    "username": "CJACKS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca556f"
+    }, 
+    "deptid": 29, 
+    "firstname": "STEVE", 
+    "gpa": 2.0, 
+    "lastname": "FRYE", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "4"
+        ], 
+        "5": [
+            "8"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 6, 
+    "userid": 138, 
+    "username": "SFRYE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca558b"
+    }, 
+    "deptid": 15, 
+    "firstname": "MICHELE", 
+    "gpa": 4.0, 
+    "lastname": "STEIN", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 6, 
+    "userid": 166, 
+    "username": "MSTEIN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54fd"
+    }, 
+    "deptid": 30, 
+    "firstname": "NORMA", 
+    "gpa": 1.0, 
+    "lastname": "BLANKENSHIP", 
+    "requestedcourses": {
+        "10": [
+            "18"
+        ], 
+        "5": [
+            "1"
+        ], 
+        "6": [
+            "3"
+        ], 
+        "7": [
+            "6"
+        ], 
+        "8": [
+            "16"
+        ], 
+        "9": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 24, 
+    "username": "NBLANK1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54fe"
+    }, 
+    "deptid": 25, 
+    "firstname": "DAVID", 
+    "gpa": 3.0, 
+    "lastname": "BURKS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "3"
+        ], 
+        "7": [
+            "6"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 25, 
+    "username": "DBURKS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54ff"
+    }, 
+    "deptid": 28, 
+    "firstname": "HARRY", 
+    "gpa": 3.5, 
+    "lastname": "JONES", 
+    "requestedcourses": {
+        "1": [
+            "11"
+        ], 
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 26, 
+    "username": "HJONES1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f9"
+    }, 
+    "deptid": 22, 
+    "firstname": "APRIL", 
+    "gpa": 3.5, 
+    "lastname": "EVANS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "6"
+        ], 
+        "6": [
+            "10"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 20, 
+    "username": "AEVANS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54fa"
+    }, 
+    "deptid": 29, 
+    "firstname": "JAMES", 
+    "gpa": 3.5, 
+    "lastname": "GORDON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 21, 
+    "username": "JGORDO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54fb"
+    }, 
+    "deptid": 30, 
+    "firstname": "ELIZABETH", 
+    "gpa": 2.0, 
+    "lastname": "ELLIS", 
+    "requestedcourses": {
+        "10": [
+            "13"
+        ], 
+        "11": [
+            "15"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "6"
+        ], 
+        "9": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 22, 
+    "username": "EELLIS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5585"
+    }, 
+    "deptid": 3, 
+    "firstname": "PATSY", 
+    "gpa": 2.5, 
+    "lastname": "LEWIS", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "5"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "8": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 160, 
+    "username": "PLEWIS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5502"
+    }, 
+    "deptid": 29, 
+    "firstname": "FELICIA", 
+    "gpa": 1.0, 
+    "lastname": "JONES", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "3"
+        ], 
+        "7": [
+            "8"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 29, 
+    "username": "FJONES1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5586"
+    }, 
+    "deptid": 4, 
+    "firstname": "SANDRA", 
+    "gpa": 3.0, 
+    "lastname": "SMITH", 
+    "requestedcourses": {
+        "1": [
+            "3"
+        ], 
+        "10": [
+            "17"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "2": [
+            "11"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 161, 
+    "username": "SSMITH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54e9"
+    }, 
+    "deptid": 30, 
+    "firstname": "VIVIAN", 
+    "gpa": 2.5, 
+    "lastname": "BROWN", 
+    "requestedcourses": {
+        "1": [
+            "4"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "7"
+        ], 
+        "7": [
+            "8"
+        ], 
+        "8": [
+            "12"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 4, 
+    "username": "VBROWN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54ed"
+    }, 
+    "deptid": 30, 
+    "firstname": "CHARLES", 
+    "gpa": 3.5, 
+    "lastname": "FOSTER", 
+    "requestedcourses": {
+        "1": [
+            "1"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 8, 
+    "username": "CFOSTE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5588"
+    }, 
+    "deptid": 30, 
+    "firstname": "SARAH", 
+    "gpa": 1.0, 
+    "lastname": "SHARP", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "12"
+        ], 
+        "4": [
+            "13"
+        ], 
+        "5": [
+            "14"
+        ], 
+        "6": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 163, 
+    "username": "SSHARP1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca555c"
+    }, 
+    "deptid": 30, 
+    "firstname": "MAURICE", 
+    "gpa": 2.5, 
+    "lastname": "JIMENEZ", 
+    "requestedcourses": {
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "17"
+        ], 
+        "8": [
+            "6"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 119, 
+    "username": "MJIMEN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca555e"
+    }, 
+    "deptid": 28, 
+    "firstname": "EDWARD", 
+    "gpa": 2.5, 
+    "lastname": "JAMES", 
+    "requestedcourses": {
+        "1": [
+            "9"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 121, 
+    "username": "EJAMES1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca555f"
+    }, 
+    "deptid": 27, 
+    "firstname": "RANDY", 
+    "gpa": 3.5, 
+    "lastname": "ODOM", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "2"
+        ], 
+        "5": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 122, 
+    "username": "RODOM1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5560"
+    }, 
+    "deptid": 30, 
+    "firstname": "JUAN", 
+    "gpa": 3.0, 
+    "lastname": "BROWN", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "8": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 123, 
+    "username": "JBROWN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5561"
+    }, 
+    "deptid": 5, 
+    "firstname": "WILLIAM", 
+    "gpa": 2.0, 
+    "lastname": "MAYS", 
+    "requestedcourses": {
+        "10": [
+            "12"
+        ], 
+        "11": [
+            "15"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "2"
+        ], 
+        "7": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 124, 
+    "username": "WMAYS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5562"
+    }, 
+    "deptid": 29, 
+    "firstname": "DIANA", 
+    "gpa": 2.5, 
+    "lastname": "BROWN", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "5": [
+            "9"
+        ], 
+        "6": [
+            "14"
+        ], 
+        "8": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 125, 
+    "username": "DBROWN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5563"
+    }, 
+    "deptid": 27, 
+    "firstname": "HEATHER", 
+    "gpa": 4.0, 
+    "lastname": "HUGHES", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "4"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 126, 
+    "username": "HHUGHE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5564"
+    }, 
+    "deptid": 24, 
+    "firstname": "AMANDA", 
+    "gpa": 2.5, 
+    "lastname": "WILLIAMS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "3"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 127, 
+    "username": "AWILLI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5565"
+    }, 
+    "deptid": 24, 
+    "firstname": "LISA", 
+    "gpa": 1.5, 
+    "lastname": "DALE", 
+    "requestedcourses": {
+        "1": [
+            "10"
+        ], 
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "11"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 128, 
+    "username": "LDALE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5566"
+    }, 
+    "deptid": 30, 
+    "firstname": "JENNIFER", 
+    "gpa": 1.0, 
+    "lastname": "GRAVES", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "8"
+        ], 
+        "7": [
+            "9"
+        ], 
+        "8": [
+            "11"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 129, 
+    "username": "JGRAVE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca558c"
+    }, 
+    "deptid": 26, 
+    "firstname": "DORIS", 
+    "gpa": 3.0, 
+    "lastname": "DICKSON", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "8"
+        ], 
+        "5": [
+            "9"
+        ], 
+        "7": [
+            "11"
+        ], 
+        "8": [
+            "12"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 167, 
+    "username": "DDICKS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca555b"
+    }, 
+    "deptid": 30, 
+    "firstname": "DIANA", 
+    "gpa": 4.0, 
+    "lastname": "GOMEZ", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "3"
+        ], 
+        "4": [
+            "14"
+        ], 
+        "8": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 118, 
+    "username": "DGOMEZ1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5520"
+    }, 
+    "deptid": 30, 
+    "firstname": "ASHLEY", 
+    "gpa": 3.0, 
+    "lastname": "LE", 
+    "requestedcourses": {
+        "1": [
+            "5"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "11"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 59, 
+    "username": "ALE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca551f"
+    }, 
+    "deptid": 15, 
+    "firstname": "RICHARD", 
+    "gpa": 1.5, 
+    "lastname": "REEVES", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "4"
+        ], 
+        "6": [
+            "6"
+        ], 
+        "7": [
+            "8"
+        ], 
+        "8": [
+            "11"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 58, 
+    "username": "RREEVE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca551c"
+    }, 
+    "deptid": 30, 
+    "firstname": "SHEILA", 
+    "gpa": 2.5, 
+    "lastname": "TAYLOR", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "5"
+        ], 
+        "6": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 55, 
+    "username": "STAYLO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca551b"
+    }, 
+    "deptid": 28, 
+    "firstname": "TRAVIS", 
+    "gpa": 3.0, 
+    "lastname": "TORRES", 
+    "requestedcourses": {
+        "11": [
+            "18"
+        ], 
+        "2": [
+            "10"
+        ], 
+        "4": [
+            "14"
+        ], 
+        "5": [
+            "15"
+        ], 
+        "7": [
+            "16"
+        ], 
+        "8": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 54, 
+    "username": "TTORRE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca551e"
+    }, 
+    "deptid": 29, 
+    "firstname": "FLORENCE", 
+    "gpa": 1.5, 
+    "lastname": "PATTERSON", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "2"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 57, 
+    "username": "FPATTE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca551d"
+    }, 
+    "deptid": 30, 
+    "firstname": "JEFFREY", 
+    "gpa": 2.5, 
+    "lastname": "HALEY", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "9"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 56, 
+    "username": "JHALEY1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5518"
+    }, 
+    "deptid": 26, 
+    "firstname": "MARIA", 
+    "gpa": 4.0, 
+    "lastname": "TAYLOR", 
+    "requestedcourses": {
+        "10": [
+            "12"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "6": [
+            "1"
+        ], 
+        "8": [
+            "5"
+        ], 
+        "9": [
+            "9"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 51, 
+    "username": "MTAYLO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca551a"
+    }, 
+    "deptid": 29, 
+    "firstname": "STEVEN", 
+    "gpa": 1.5, 
+    "lastname": "GARDNER", 
+    "requestedcourses": {
+        "1": [
+            "8"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 53, 
+    "username": "SGARDN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5519"
+    }, 
+    "deptid": 21, 
+    "firstname": "RALPH", 
+    "gpa": 1.0, 
+    "lastname": "DAVIS", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 52, 
+    "username": "RDAVIS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5589"
+    }, 
+    "deptid": 30, 
+    "firstname": "VIOLA", 
+    "gpa": 3.5, 
+    "lastname": "HUGHES", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "8"
+        ], 
+        "3": [
+            "10"
+        ], 
+        "5": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 164, 
+    "username": "VHUGHE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55ac"
+    }, 
+    "deptid": 28, 
+    "firstname": "ANNA", 
+    "gpa": 1.5, 
+    "lastname": "KINNEY", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "2"
+        ], 
+        "6": [
+            "9"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 199, 
+    "username": "AKINNE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5598"
+    }, 
+    "deptid": 30, 
+    "firstname": "CAROL", 
+    "gpa": 2.5, 
+    "lastname": "CAMACHO", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "1"
+        ], 
+        "6": [
+            "2"
+        ], 
+        "7": [
+            "3"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 179, 
+    "username": "CCAMAC1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55ad"
+    }, 
+    "deptid": 20, 
+    "firstname": "DELORES", 
+    "gpa": 3.0, 
+    "lastname": "CLARKE", 
+    "requestedcourses": {
+        "11": [
+            "14"
+        ], 
+        "12": [
+            "17"
+        ], 
+        "3": [
+            "4"
+        ], 
+        "5": [
+            "8"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 200, 
+    "username": "DCLARK1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a8"
+    }, 
+    "deptid": 16, 
+    "firstname": "BILL", 
+    "gpa": 3.5, 
+    "lastname": "HARRIS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "8"
+        ], 
+        "5": [
+            "9"
+        ], 
+        "6": [
+            "13"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 195, 
+    "username": "BHARRI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a7"
+    }, 
+    "deptid": 26, 
+    "firstname": "FRANCIS", 
+    "gpa": 2.0, 
+    "lastname": "MILLER", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 194, 
+    "username": "FMILLE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55aa"
+    }, 
+    "deptid": 30, 
+    "firstname": "LOIS", 
+    "gpa": 1.0, 
+    "lastname": "OLIVER", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "4"
+        ], 
+        "5": [
+            "6"
+        ], 
+        "9": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 197, 
+    "username": "LOLIVE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5597"
+    }, 
+    "deptid": 30, 
+    "firstname": "KATHERINE", 
+    "gpa": 3.5, 
+    "lastname": "THOMAS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "8"
+        ], 
+        "6": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 178, 
+    "username": "KTHOMA1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a4"
+    }, 
+    "deptid": 29, 
+    "firstname": "DOUGLAS", 
+    "gpa": 2.5, 
+    "lastname": "JACKSON", 
+    "requestedcourses": {
+        "10": [
+            "11"
+        ], 
+        "11": [
+            "13"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "3": [
+            "8"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 191, 
+    "username": "DJACKS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a3"
+    }, 
+    "deptid": 28, 
+    "firstname": "ELLEN", 
+    "gpa": 3.0, 
+    "lastname": "MORGAN", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "3": [
+            "8"
+        ], 
+        "4": [
+            "10"
+        ], 
+        "8": [
+            "11"
+        ], 
+        "9": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 190, 
+    "username": "EMORGA1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a6"
+    }, 
+    "deptid": 28, 
+    "firstname": "NICOLE", 
+    "gpa": 3.5, 
+    "lastname": "JONES", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "15"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "4": [
+            "7"
+        ], 
+        "9": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 193, 
+    "username": "NJONES1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a5"
+    }, 
+    "deptid": 30, 
+    "firstname": "CHARLES", 
+    "gpa": 1.5, 
+    "lastname": "WILSON", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "2"
+        ], 
+        "9": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 192, 
+    "username": "CWILSO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5558"
+    }, 
+    "deptid": 28, 
+    "firstname": "PEGGY", 
+    "gpa": 4.0, 
+    "lastname": "WARD", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "6"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 115, 
+    "username": "PWARD1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca553d"
+    }, 
+    "deptid": 21, 
+    "firstname": "MICHAEL", 
+    "gpa": 3.0, 
+    "lastname": "TYSON", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "9"
+        ], 
+        "8": [
+            "10"
+        ], 
+        "9": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 88, 
+    "username": "MTYSON1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca553e"
+    }, 
+    "deptid": 21, 
+    "firstname": "LAURA", 
+    "gpa": 4.0, 
+    "lastname": "HUNT", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "1"
+        ], 
+        "5": [
+            "9"
+        ], 
+        "6": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 89, 
+    "username": "LHUNT1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5554"
+    }, 
+    "deptid": 1, 
+    "firstname": "DOROTHY", 
+    "gpa": 4.0, 
+    "lastname": "PEREZ", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "10"
+        ], 
+        "5": [
+            "11"
+        ], 
+        "6": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 111, 
+    "username": "DPEREZ1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5553"
+    }, 
+    "deptid": 9, 
+    "firstname": "FERNANDO", 
+    "gpa": 3.0, 
+    "lastname": "GARDNER", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "2"
+        ], 
+        "8": [
+            "9"
+        ], 
+        "9": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 110, 
+    "username": "FGARDN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5556"
+    }, 
+    "deptid": 14, 
+    "firstname": "MARY", 
+    "gpa": 2.0, 
+    "lastname": "KNIGHT", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "9"
+        ], 
+        "8": [
+            "10"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 113, 
+    "username": "MKNIGH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5555"
+    }, 
+    "deptid": 19, 
+    "firstname": "RUTH", 
+    "gpa": 2.5, 
+    "lastname": "GILBERT", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "10"
+        ], 
+        "6": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 112, 
+    "username": "RGILBE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5535"
+    }, 
+    "deptid": 30, 
+    "firstname": "WANDA", 
+    "gpa": 3.0, 
+    "lastname": "WEEKS", 
+    "requestedcourses": {
+        "10": [
+            "13"
+        ], 
+        "11": [
+            "15"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "3"
+        ], 
+        "7": [
+            "4"
+        ], 
+        "8": [
+            "7"
+        ], 
+        "9": [
+            "9"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 80, 
+    "username": "WWEEKS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5536"
+    }, 
+    "deptid": 29, 
+    "firstname": "KATIE", 
+    "gpa": 3.5, 
+    "lastname": "BERGER", 
+    "requestedcourses": {
+        "11": [
+            "13"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "8": [
+            "2"
+        ], 
+        "9": [
+            "10"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 81, 
+    "username": "KBERGE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca553c"
+    }, 
+    "deptid": 30, 
+    "firstname": "HARVEY", 
+    "gpa": 3.5, 
+    "lastname": "MILLER", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "11"
+        ], 
+        "4": [
+            "12"
+        ], 
+        "6": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 87, 
+    "username": "HMILLE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5539"
+    }, 
+    "deptid": 26, 
+    "firstname": "IAN", 
+    "gpa": 3.5, 
+    "lastname": "WILCOX", 
+    "requestedcourses": {
+        "2": [
+            "12"
+        ], 
+        "6": [
+            "16"
+        ], 
+        "7": [
+            "17"
+        ], 
+        "9": [
+            "18"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 84, 
+    "username": "IWILCO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca553a"
+    }, 
+    "deptid": 30, 
+    "firstname": "CHRIS", 
+    "gpa": 3.5, 
+    "lastname": "ROGERS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "6"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 85, 
+    "username": "CROGER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55ab"
+    }, 
+    "deptid": 30, 
+    "firstname": "ARTHUR", 
+    "gpa": 2.5, 
+    "lastname": "GONZALEZ", 
+    "requestedcourses": {
+        "11": [
+            "14"
+        ], 
+        "12": [
+            "17"
+        ], 
+        "5": [
+            "11"
+        ], 
+        "8": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 198, 
+    "username": "AGONZA1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54e8"
+    }, 
+    "deptid": 20, 
+    "firstname": "DARRELL", 
+    "gpa": 3.5, 
+    "lastname": "MARTIN", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "5"
+        ], 
+        "6": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 3, 
+    "username": "DMARTI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54ec"
+    }, 
+    "deptid": 30, 
+    "firstname": "DEAN", 
+    "gpa": 2.0, 
+    "lastname": "FLOYD", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "6"
+        ], 
+        "8": [
+            "12"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 7, 
+    "username": "DFLOYD1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5551"
+    }, 
+    "deptid": 23, 
+    "firstname": "KEVIN", 
+    "gpa": 3.0, 
+    "lastname": "BOYD", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "10"
+        ], 
+        "5": [
+            "13"
+        ], 
+        "7": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 108, 
+    "username": "KBOYD1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5552"
+    }, 
+    "deptid": 30, 
+    "firstname": "ANNE", 
+    "gpa": 3.0, 
+    "lastname": "SMITH", 
+    "requestedcourses": {
+        "11": [
+            "14"
+        ], 
+        "12": [
+            "17"
+        ], 
+        "5": [
+            "6"
+        ], 
+        "9": [
+            "9"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 109, 
+    "username": "ASMITH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca554b"
+    }, 
+    "deptid": 30, 
+    "firstname": "JEFF", 
+    "gpa": 1.5, 
+    "lastname": "CUMMINGS", 
+    "requestedcourses": {
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "6"
+        ], 
+        "8": [
+            "11"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 102, 
+    "username": "JCUMMI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca554c"
+    }, 
+    "deptid": 30, 
+    "firstname": "KELLY", 
+    "gpa": 2.0, 
+    "lastname": "ANDERSON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "8": [
+            "6"
+        ], 
+        "9": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 103, 
+    "username": "KANDER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5549"
+    }, 
+    "deptid": 30, 
+    "firstname": "RALPH", 
+    "gpa": 3.0, 
+    "lastname": "HARMON", 
+    "requestedcourses": {
+        "1": [
+            "11"
+        ], 
+        "10": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 100, 
+    "username": "RHARMO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca554f"
+    }, 
+    "deptid": 30, 
+    "firstname": "HEATHER", 
+    "gpa": 3.0, 
+    "lastname": "JONES", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "3"
+        ], 
+        "8": [
+            "7"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 106, 
+    "username": "HJONES2"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5550"
+    }, 
+    "deptid": 27, 
+    "firstname": "MARGARET", 
+    "gpa": 3.5, 
+    "lastname": "JONES", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "9"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 107, 
+    "username": "MJONES1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca554d"
+    }, 
+    "deptid": 30, 
+    "firstname": "ARTHUR", 
+    "gpa": 1.0, 
+    "lastname": "MORSE", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "13"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 104, 
+    "username": "AMORSE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca554e"
+    }, 
+    "deptid": 19, 
+    "firstname": "RAUL", 
+    "gpa": 3.0, 
+    "lastname": "PEARSON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "8": [
+            "1"
+        ], 
+        "9": [
+            "4"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 105, 
+    "username": "RPEARS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca550c"
+    }, 
+    "deptid": 29, 
+    "firstname": "NINA", 
+    "gpa": 1.5, 
+    "lastname": "ANDERSON", 
+    "requestedcourses": {
+        "1": [
+            "5"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 39, 
+    "username": "NANDER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca550b"
+    }, 
+    "deptid": 28, 
+    "firstname": "IRENE", 
+    "gpa": 3.0, 
+    "lastname": "WALKER", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "10"
+        ], 
+        "8": [
+            "12"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 38, 
+    "username": "IWALKE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5506"
+    }, 
+    "deptid": 2, 
+    "firstname": "CASEY", 
+    "gpa": 4.0, 
+    "lastname": "CLARK", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "10"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 33, 
+    "username": "CCLARK1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5505"
+    }, 
+    "deptid": 10, 
+    "firstname": "ANTHONY", 
+    "gpa": 1.0, 
+    "lastname": "TAYLOR", 
+    "requestedcourses": {
+        "10": [
+            "13"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "17"
+        ], 
+        "7": [
+            "3"
+        ], 
+        "8": [
+            "10"
+        ], 
+        "9": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 32, 
+    "username": "ATAYLO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5503"
+    }, 
+    "deptid": 24, 
+    "firstname": "JASON", 
+    "gpa": 4.0, 
+    "lastname": "CARPENTER", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "10"
+        ], 
+        "5": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 30, 
+    "username": "JCARPE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca550a"
+    }, 
+    "deptid": 28, 
+    "firstname": "JEFFREY", 
+    "gpa": 1.5, 
+    "lastname": "CLARK", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "2"
+        ], 
+        "4": [
+            "4"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 6, 
+    "userid": 37, 
+    "username": "JCLARK1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5508"
+    }, 
+    "deptid": 30, 
+    "firstname": "ROBERTO", 
+    "gpa": 1.5, 
+    "lastname": "KEMP", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "3"
+        ], 
+        "5": [
+            "9"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 35, 
+    "username": "RKEMP1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5595"
+    }, 
+    "deptid": 21, 
+    "firstname": "JEREMY", 
+    "gpa": 1.0, 
+    "lastname": "SANDOVAL", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "4"
+        ], 
+        "5": [
+            "12"
+        ], 
+        "6": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 176, 
+    "username": "JSANDO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5521"
+    }, 
+    "deptid": 26, 
+    "firstname": "JASON", 
+    "gpa": 1.0, 
+    "lastname": "HAMPTON", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "8": [
+            "4"
+        ], 
+        "9": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 60, 
+    "username": "JHAMPT1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5522"
+    }, 
+    "deptid": 21, 
+    "firstname": "AMY", 
+    "gpa": 3.0, 
+    "lastname": "SCOTT", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "10"
+        ], 
+        "6": [
+            "13"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 61, 
+    "username": "ASCOTT1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5523"
+    }, 
+    "deptid": 26, 
+    "firstname": "EDGAR", 
+    "gpa": 3.0, 
+    "lastname": "STUART", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "2"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 62, 
+    "username": "ESTUAR1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5525"
+    }, 
+    "deptid": 30, 
+    "firstname": "RICKY", 
+    "gpa": 3.5, 
+    "lastname": "GARDNER", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "9"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 64, 
+    "username": "RGARDN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5527"
+    }, 
+    "deptid": 30, 
+    "firstname": "MARY", 
+    "gpa": 1.5, 
+    "lastname": "ALEXANDER", 
+    "requestedcourses": {
+        "11": [
+            "6"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "7": [
+            "1"
+        ], 
+        "8": [
+            "4"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 66, 
+    "username": "MALEXA1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5528"
+    }, 
+    "deptid": 30, 
+    "firstname": "JOE", 
+    "gpa": 4.0, 
+    "lastname": "RODRIGUEZ", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "9"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 67, 
+    "username": "JRODRI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5529"
+    }, 
+    "deptid": 30, 
+    "firstname": "JENNIFER", 
+    "gpa": 1.0, 
+    "lastname": "FREEMAN", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "5": [
+            "6"
+        ], 
+        "7": [
+            "7"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 68, 
+    "username": "JFREEM1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca552a"
+    }, 
+    "deptid": 29, 
+    "firstname": "ANNA", 
+    "gpa": 1.5, 
+    "lastname": "MENDEZ", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "7"
+        ], 
+        "6": [
+            "10"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 69, 
+    "username": "AMENDE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5594"
+    }, 
+    "deptid": 29, 
+    "firstname": "SUSAN", 
+    "gpa": 3.5, 
+    "lastname": "WILLIAMS", 
+    "requestedcourses": {
+        "11": [
+            "18"
+        ], 
+        "3": [
+            "11"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "9": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 175, 
+    "username": "SWILLI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5593"
+    }, 
+    "deptid": 20, 
+    "firstname": "KENNETH", 
+    "gpa": 4.0, 
+    "lastname": "SMITH", 
+    "requestedcourses": {
+        "1": [
+            "11"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "14"
+        ], 
+        "6": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 174, 
+    "username": "KSMITH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5592"
+    }, 
+    "deptid": 27, 
+    "firstname": "THERESA", 
+    "gpa": 1.0, 
+    "lastname": "FROST", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "6"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 173, 
+    "username": "TFROST1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5591"
+    }, 
+    "deptid": 30, 
+    "firstname": "ROLAND", 
+    "gpa": 1.0, 
+    "lastname": "ADAMS", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "15"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "11"
+        ], 
+        "9": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 172, 
+    "username": "RADAMS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5590"
+    }, 
+    "deptid": 10, 
+    "firstname": "JAY", 
+    "gpa": 4.0, 
+    "lastname": "PHILLIPS", 
+    "requestedcourses": {
+        "1": [
+            "6"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "11"
+        ], 
+        "5": [
+            "12"
+        ], 
+        "6": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 171, 
+    "username": "JPHILL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca558f"
+    }, 
+    "deptid": 29, 
+    "firstname": "ESTHER", 
+    "gpa": 2.5, 
+    "lastname": "MOSS", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "8"
+        ], 
+        "4": [
+            "14"
+        ], 
+        "7": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 170, 
+    "username": "EMOSS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca559a"
+    }, 
+    "deptid": 24, 
+    "firstname": "CHRISTOPHER", 
+    "gpa": 2.0, 
+    "lastname": "STANLEY", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "5"
+        ], 
+        "7": [
+            "7"
+        ], 
+        "8": [
+            "10"
+        ], 
+        "9": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 181, 
+    "username": "CSTANL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca559c"
+    }, 
+    "deptid": 28, 
+    "firstname": "GARY", 
+    "gpa": 3.5, 
+    "lastname": "JOHNSON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "2"
+        ], 
+        "4": [
+            "8"
+        ], 
+        "5": [
+            "11"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 183, 
+    "username": "GJOHNS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54e7"
+    }, 
+    "deptid": 29, 
+    "firstname": "EDWIN", 
+    "gpa": 3.5, 
+    "lastname": "RAYMOND", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "6": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 2, 
+    "username": "ERAYMO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5587"
+    }, 
+    "deptid": 27, 
+    "firstname": "ROBERT", 
+    "gpa": 3.0, 
+    "lastname": "HURST", 
+    "requestedcourses": {
+        "1": [
+            "12"
+        ], 
+        "10": [
+            "17"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "5": [
+            "13"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "8": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 162, 
+    "username": "RHURST1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a0"
+    }, 
+    "deptid": 19, 
+    "firstname": "RAYMOND", 
+    "gpa": 3.0, 
+    "lastname": "WILLIAMS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 187, 
+    "username": "RWILLI2"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca559d"
+    }, 
+    "deptid": 7, 
+    "firstname": "MICHELLE", 
+    "gpa": 4.0, 
+    "lastname": "HARVEY", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "9"
+        ], 
+        "6": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 184, 
+    "username": "MHARVE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54eb"
+    }, 
+    "deptid": 26, 
+    "firstname": "ALLEN", 
+    "gpa": 3.5, 
+    "lastname": "BARNES", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 6, 
+    "username": "ABARNE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca559f"
+    }, 
+    "deptid": 21, 
+    "firstname": "LAURIE", 
+    "gpa": 1.0, 
+    "lastname": "ANDERSON", 
+    "requestedcourses": {
+        "12": [
+            "17"
+        ], 
+        "6": [
+            "10"
+        ], 
+        "7": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 186, 
+    "username": "LANDER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a1"
+    }, 
+    "deptid": 30, 
+    "firstname": "MONICA", 
+    "gpa": 1.0, 
+    "lastname": "GILL", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "11"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 188, 
+    "username": "MGILL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a2"
+    }, 
+    "deptid": 30, 
+    "firstname": "LORETTA", 
+    "gpa": 4.0, 
+    "lastname": "OWEN", 
+    "requestedcourses": {
+        "1": [
+            "1"
+        ], 
+        "11": [
+            "7"
+        ], 
+        "12": [
+            "9"
+        ], 
+        "2": [
+            "2"
+        ], 
+        "6": [
+            "3"
+        ], 
+        "7": [
+            "5"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 189, 
+    "username": "LOWEN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55a9"
+    }, 
+    "deptid": 30, 
+    "firstname": "ROSS", 
+    "gpa": 1.0, 
+    "lastname": "ROBINSON", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "7"
+        ], 
+        "4": [
+            "8"
+        ], 
+        "8": [
+            "11"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 196, 
+    "username": "RROBIN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca559e"
+    }, 
+    "deptid": 30, 
+    "firstname": "MARY", 
+    "gpa": 2.0, 
+    "lastname": "LANE", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "14"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 185, 
+    "username": "MLANE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5548"
+    }, 
+    "deptid": 27, 
+    "firstname": "JENNIFER", 
+    "gpa": 3.5, 
+    "lastname": "SIMMONS", 
+    "requestedcourses": {
+        "11": [
+            "13"
+        ], 
+        "12": [
+            "15"
+        ], 
+        "5": [
+            "3"
+        ], 
+        "9": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 99, 
+    "username": "JSIMMO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5547"
+    }, 
+    "deptid": 13, 
+    "firstname": "GAIL", 
+    "gpa": 2.0, 
+    "lastname": "CAMPBELL", 
+    "requestedcourses": {
+        "1": [
+            "7"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 98, 
+    "username": "GCAMPB1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca558d"
+    }, 
+    "deptid": 29, 
+    "firstname": "KAY", 
+    "gpa": 2.0, 
+    "lastname": "VALDEZ", 
+    "requestedcourses": {
+        "10": [
+            "10"
+        ], 
+        "11": [
+            "11"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "2": [
+            "8"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 168, 
+    "username": "KVALDE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca558e"
+    }, 
+    "deptid": 19, 
+    "firstname": "JOSE", 
+    "gpa": 3.0, 
+    "lastname": "WINTERS", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "15"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "9": [
+            "12"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 169, 
+    "username": "JWINTE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca553f"
+    }, 
+    "deptid": 30, 
+    "firstname": "GERALD", 
+    "gpa": 3.5, 
+    "lastname": "ANDERSON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "3"
+        ], 
+        "6": [
+            "10"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 90, 
+    "username": "GANDER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5542"
+    }, 
+    "deptid": 30, 
+    "firstname": "BENJAMIN", 
+    "gpa": 3.5, 
+    "lastname": "SCOTT", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "9": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 93, 
+    "username": "BSCOTT1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5541"
+    }, 
+    "deptid": 30, 
+    "firstname": "EDNA", 
+    "gpa": 2.0, 
+    "lastname": "SMITH", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "3": [
+            "12"
+        ], 
+        "4": [
+            "13"
+        ], 
+        "8": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 92, 
+    "username": "ESMITH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5544"
+    }, 
+    "deptid": 27, 
+    "firstname": "REBECCA", 
+    "gpa": 1.0, 
+    "lastname": "DAVIS", 
+    "requestedcourses": {
+        "10": [
+            "17"
+        ], 
+        "11": [
+            "18"
+        ], 
+        "2": [
+            "10"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "8": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 95, 
+    "username": "RDAVIS2"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5546"
+    }, 
+    "deptid": 28, 
+    "firstname": "BRETT", 
+    "gpa": 1.0, 
+    "lastname": "MORAN", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "12": [
+            "16"
+        ], 
+        "8": [
+            "12"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 97, 
+    "username": "BMORAN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5545"
+    }, 
+    "deptid": 30, 
+    "firstname": "TODD", 
+    "gpa": 3.5, 
+    "lastname": "CHAPMAN", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "9"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 96, 
+    "username": "TCHAPM1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f0"
+    }, 
+    "deptid": 29, 
+    "firstname": "YVONNE", 
+    "gpa": 3.5, 
+    "lastname": "TAYLOR", 
+    "requestedcourses": {
+        "1": [
+            "12"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 11, 
+    "username": "YTAYLO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54ef"
+    }, 
+    "deptid": 11, 
+    "firstname": "DONALD", 
+    "gpa": 4.0, 
+    "lastname": "TAYLOR", 
+    "requestedcourses": {
+        "1": [
+            "8"
+        ], 
+        "3": [
+            "14"
+        ], 
+        "6": [
+            "15"
+        ], 
+        "7": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 10, 
+    "username": "DTAYLO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f1"
+    }, 
+    "deptid": 29, 
+    "firstname": "RAYMOND", 
+    "gpa": 1.5, 
+    "lastname": "KIRKLAND", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "13"
+        ], 
+        "6": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 12, 
+    "username": "RKIRKL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f4"
+    }, 
+    "deptid": 27, 
+    "firstname": "GERTRUDE", 
+    "gpa": 4.0, 
+    "lastname": "BROWNING", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "1"
+        ], 
+        "7": [
+            "11"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 15, 
+    "username": "GBROWN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f3"
+    }, 
+    "deptid": 17, 
+    "firstname": "DEANNA", 
+    "gpa": 1.0, 
+    "lastname": "BRYANT", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "6"
+        ], 
+        "5": [
+            "8"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 14, 
+    "username": "DBRYAN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f6"
+    }, 
+    "deptid": 30, 
+    "firstname": "RICK", 
+    "gpa": 1.5, 
+    "lastname": "JUAREZ", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "3": [
+            "2"
+        ], 
+        "4": [
+            "5"
+        ], 
+        "7": [
+            "11"
+        ], 
+        "8": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 17, 
+    "username": "RJUARE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f5"
+    }, 
+    "deptid": 2, 
+    "firstname": "JANICE", 
+    "gpa": 2.5, 
+    "lastname": "WILLIAMS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "9"
+        ], 
+        "7": [
+            "11"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 16, 
+    "username": "JWILLI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f8"
+    }, 
+    "deptid": 30, 
+    "firstname": "KENNETH", 
+    "gpa": 1.5, 
+    "lastname": "DAVIS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "7"
+        ], 
+        "6": [
+            "9"
+        ], 
+        "7": [
+            "11"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 19, 
+    "username": "KDAVIS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54f7"
+    }, 
+    "deptid": 16, 
+    "firstname": "MARY", 
+    "gpa": 2.0, 
+    "lastname": "JAMES", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "4"
+        ], 
+        "7": [
+            "10"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 18, 
+    "username": "MJAMES1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca555a"
+    }, 
+    "deptid": 30, 
+    "firstname": "ROBERT", 
+    "gpa": 1.0, 
+    "lastname": "WILSON", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 117, 
+    "username": "RWILSO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5559"
+    }, 
+    "deptid": 23, 
+    "firstname": "JONATHAN", 
+    "gpa": 3.5, 
+    "lastname": "VASQUEZ", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "5"
+        ], 
+        "7": [
+            "11"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 116, 
+    "username": "JVASQU1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca557c"
+    }, 
+    "deptid": 28, 
+    "firstname": "TRAVIS", 
+    "gpa": 1.0, 
+    "lastname": "BRIDGES", 
+    "requestedcourses": {
+        "2": [
+            "1"
+        ], 
+        "5": [
+            "5"
+        ], 
+        "8": [
+            "10"
+        ], 
+        "9": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 151, 
+    "username": "TBRIDG1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca557b"
+    }, 
+    "deptid": 28, 
+    "firstname": "DEBORAH", 
+    "gpa": 3.0, 
+    "lastname": "PEREZ", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "11"
+        ], 
+        "7": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 150, 
+    "username": "DPEREZ2"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca557e"
+    }, 
+    "deptid": 23, 
+    "firstname": "CLARA", 
+    "gpa": 4.0, 
+    "lastname": "SMITH", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "5"
+        ], 
+        "3": [
+            "6"
+        ], 
+        "6": [
+            "9"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 153, 
+    "username": "CSMITH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5580"
+    }, 
+    "deptid": 30, 
+    "firstname": "ARLENE", 
+    "gpa": 4.0, 
+    "lastname": "HILL", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "17"
+        ], 
+        "4": [
+            "3"
+        ], 
+        "5": [
+            "8"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 155, 
+    "username": "AHILL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca557f"
+    }, 
+    "deptid": 20, 
+    "firstname": "JANICE", 
+    "gpa": 3.5, 
+    "lastname": "WRIGHT", 
+    "requestedcourses": {
+        "1": [
+            "9"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "11"
+        ], 
+        "4": [
+            "12"
+        ], 
+        "5": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 154, 
+    "username": "JWRIGH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5584"
+    }, 
+    "deptid": 30, 
+    "firstname": "ELIZABETH", 
+    "gpa": 3.0, 
+    "lastname": "COLLINS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "9"
+        ], 
+        "4": [
+            "10"
+        ], 
+        "7": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 159, 
+    "username": "ECOLLI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5583"
+    }, 
+    "deptid": 23, 
+    "firstname": "BARRY", 
+    "gpa": 1.5, 
+    "lastname": "OLSEN", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "3"
+        ], 
+        "8": [
+            "10"
+        ], 
+        "9": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 158, 
+    "username": "BOLSEN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5515"
+    }, 
+    "deptid": 29, 
+    "firstname": "ANNA", 
+    "gpa": 4.0, 
+    "lastname": "CLARK", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 6, 
+    "userid": 48, 
+    "username": "ACLARK1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5516"
+    }, 
+    "deptid": 13, 
+    "firstname": "JIM", 
+    "gpa": 3.5, 
+    "lastname": "GOMEZ", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "8"
+        ], 
+        "4": [
+            "10"
+        ], 
+        "5": [
+            "11"
+        ], 
+        "6": [
+            "13"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "8": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 49, 
+    "username": "JGOMEZ1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5513"
+    }, 
+    "deptid": 30, 
+    "firstname": "BESSIE", 
+    "gpa": 1.5, 
+    "lastname": "HERRERA", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "9"
+        ], 
+        "5": [
+            "13"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "8": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 46, 
+    "username": "BHERRE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5514"
+    }, 
+    "deptid": 30, 
+    "firstname": "MARY", 
+    "gpa": 3.0, 
+    "lastname": "HAMILTON", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "14"
+        ], 
+        "7": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 47, 
+    "username": "MHAMIL1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5511"
+    }, 
+    "deptid": 11, 
+    "firstname": "BILLY", 
+    "gpa": 2.5, 
+    "lastname": "MCKINNEY", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "12"
+        ], 
+        "6": [
+            "13"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "8": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 44, 
+    "username": "BMCKIN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5512"
+    }, 
+    "deptid": 30, 
+    "firstname": "RALPH", 
+    "gpa": 3.5, 
+    "lastname": "TURNER", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "11"
+        ], 
+        "6": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 45, 
+    "username": "RTURNE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca550f"
+    }, 
+    "deptid": 16, 
+    "firstname": "WILMA", 
+    "gpa": 4.0, 
+    "lastname": "ROBERTSON", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "8"
+        ], 
+        "3": [
+            "9"
+        ], 
+        "7": [
+            "10"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 42, 
+    "username": "WROBER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5510"
+    }, 
+    "deptid": 30, 
+    "firstname": "CHARLES", 
+    "gpa": 1.0, 
+    "lastname": "BROOKS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "1"
+        ], 
+        "7": [
+            "9"
+        ], 
+        "8": [
+            "10"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 43, 
+    "username": "CBROOK1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca550d"
+    }, 
+    "deptid": 27, 
+    "firstname": "TONY", 
+    "gpa": 1.0, 
+    "lastname": "WALKER", 
+    "requestedcourses": {
+        "10": [
+            "11"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "2"
+        ], 
+        "5": [
+            "4"
+        ], 
+        "7": [
+            "8"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 40, 
+    "username": "TWALKE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca550e"
+    }, 
+    "deptid": 30, 
+    "firstname": "JOAN", 
+    "gpa": 1.5, 
+    "lastname": "OWENS", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "1"
+        ], 
+        "8": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 4, 
+    "userid": 41, 
+    "username": "JOWENS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54ea"
+    }, 
+    "deptid": 30, 
+    "firstname": "JAMES", 
+    "gpa": 3.5, 
+    "lastname": "ROBERTS", 
+    "requestedcourses": {
+        "1": [
+            "13"
+        ], 
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 5, 
+    "username": "JROBER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54ee"
+    }, 
+    "deptid": 29, 
+    "firstname": "AMY", 
+    "gpa": 2.5, 
+    "lastname": "VASQUEZ", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "4": [
+            "11"
+        ], 
+        "5": [
+            "14"
+        ], 
+        "6": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 6, 
+    "userid": 9, 
+    "username": "AVASQU1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5577"
+    }, 
+    "deptid": 30, 
+    "firstname": "CHRISTOPHER", 
+    "gpa": 1.0, 
+    "lastname": "ELLIS", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "16"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "4"
+        ], 
+        "9": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 146, 
+    "username": "CELLIS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5578"
+    }, 
+    "deptid": 28, 
+    "firstname": "MILDRED", 
+    "gpa": 1.0, 
+    "lastname": "PITTMAN", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "11"
+        ], 
+        "4": [
+            "13"
+        ], 
+        "7": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 147, 
+    "username": "MPITTM1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5575"
+    }, 
+    "deptid": 30, 
+    "firstname": "SALLY", 
+    "gpa": 1.0, 
+    "lastname": "LYNN", 
+    "requestedcourses": {
+        "10": [
+            "13"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "2"
+        ], 
+        "5": [
+            "6"
+        ], 
+        "8": [
+            "10"
+        ], 
+        "9": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 144, 
+    "username": "SLYNN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5576"
+    }, 
+    "deptid": 30, 
+    "firstname": "SARAH", 
+    "gpa": 2.0, 
+    "lastname": "KELLY", 
+    "requestedcourses": {
+        "1": [
+            "12"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "15"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 145, 
+    "username": "SKELLY1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5573"
+    }, 
+    "deptid": 12, 
+    "firstname": "FRANCISCO", 
+    "gpa": 1.0, 
+    "lastname": "HARMON", 
+    "requestedcourses": {
+        "1": [
+            "5"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "8": [
+            "13"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 142, 
+    "username": "FHARMO1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5571"
+    }, 
+    "deptid": 27, 
+    "firstname": "JON", 
+    "gpa": 4.0, 
+    "lastname": "TODD", 
+    "requestedcourses": {
+        "10": [
+            "15"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "5"
+        ], 
+        "6": [
+            "10"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "9": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 140, 
+    "username": "JTODD1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5572"
+    }, 
+    "deptid": 17, 
+    "firstname": "LLOYD", 
+    "gpa": 1.5, 
+    "lastname": "GLASS", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "11"
+        ], 
+        "6": [
+            "12"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 141, 
+    "username": "LGLASS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5579"
+    }, 
+    "deptid": 30, 
+    "firstname": "STANLEY", 
+    "gpa": 3.5, 
+    "lastname": "RODRIGUEZ", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "11"
+        ], 
+        "5": [
+            "14"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 1, 
+    "userid": 148, 
+    "username": "SRODRI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca557a"
+    }, 
+    "deptid": 13, 
+    "firstname": "MARK", 
+    "gpa": 3.5, 
+    "lastname": "MARTINEZ", 
+    "requestedcourses": {
+        "1": [
+            "9"
+        ], 
+        "10": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "12"
+        ], 
+        "9": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 149, 
+    "username": "MMARTI1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5532"
+    }, 
+    "deptid": 16, 
+    "firstname": "DOROTHY", 
+    "gpa": 3.5, 
+    "lastname": "VELAZQUEZ", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "11"
+        ], 
+        "7": [
+            "13"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 5, 
+    "userid": 77, 
+    "username": "DVELAZ1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5531"
+    }, 
+    "deptid": 21, 
+    "firstname": "JOHN", 
+    "gpa": 2.0, 
+    "lastname": "LAWRENCE", 
+    "requestedcourses": {
+        "11": [
+            "18"
+        ], 
+        "2": [
+            "6"
+        ], 
+        "3": [
+            "11"
+        ], 
+        "5": [
+            "14"
+        ], 
+        "6": [
+            "15"
+        ], 
+        "8": [
+            "16"
+        ], 
+        "9": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 76, 
+    "username": "JLAWRE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5530"
+    }, 
+    "deptid": 15, 
+    "firstname": "WILLIAM", 
+    "gpa": 4.0, 
+    "lastname": "SWEET", 
+    "requestedcourses": {
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "9"
+        ], 
+        "6": [
+            "15"
+        ], 
+        "7": [
+            "16"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 75, 
+    "username": "WSWEET1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca552e"
+    }, 
+    "deptid": 29, 
+    "firstname": "MELISSA", 
+    "gpa": 4.0, 
+    "lastname": "ROBINSON", 
+    "requestedcourses": {
+        "1": [
+            "3"
+        ], 
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "6"
+        ], 
+        "6": [
+            "11"
+        ], 
+        "9": [
+            "13"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 73, 
+    "username": "MROBIN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca552d"
+    }, 
+    "deptid": 7, 
+    "firstname": "FREDERICK", 
+    "gpa": 1.0, 
+    "lastname": "WONG", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "5": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 72, 
+    "username": "FWONG1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca552c"
+    }, 
+    "deptid": 28, 
+    "firstname": "TERRY", 
+    "gpa": 3.0, 
+    "lastname": "JIMENEZ", 
+    "requestedcourses": {
+        "12": [
+            "18"
+        ], 
+        "4": [
+            "12"
+        ], 
+        "5": [
+            "16"
+        ], 
+        "8": [
+            "17"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 7, 
+    "userid": 71, 
+    "username": "TJIMEN1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca552b"
+    }, 
+    "deptid": 30, 
+    "firstname": "MARY", 
+    "gpa": 3.5, 
+    "lastname": "GRAVES", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "2": [
+            "10"
+        ], 
+        "5": [
+            "11"
+        ], 
+        "7": [
+            "12"
+        ], 
+        "8": [
+            "14"
+        ], 
+        "9": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 2, 
+    "userid": 70, 
+    "username": "MGRAVE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5534"
+    }, 
+    "deptid": 22, 
+    "firstname": "EILEEN", 
+    "gpa": 1.0, 
+    "lastname": "MCMAHON", 
+    "requestedcourses": {
+        "10": [
+            "14"
+        ], 
+        "11": [
+            "15"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "3": [
+            "3"
+        ], 
+        "5": [
+            "4"
+        ], 
+        "6": [
+            "10"
+        ], 
+        "9": [
+            "11"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 3, 
+    "userid": 79, 
+    "username": "EMCMAH1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca5533"
+    }, 
+    "deptid": 30, 
+    "firstname": "JOSEPH", 
+    "gpa": 3.0, 
+    "lastname": "SMITH", 
+    "requestedcourses": {
+        "10": [
+            "16"
+        ], 
+        "11": [
+            "17"
+        ], 
+        "12": [
+            "18"
+        ], 
+        "6": [
+            "13"
+        ], 
+        "8": [
+            "15"
+        ]
+    }, 
+    "roleid": 5, 
+    "seniority": 6, 
+    "userid": 78, 
+    "username": "JSMITH2"
+}
+
+
+PRINTING PROFESSORS!
+
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55cf"
+    }, 
+    "course_semester": [
+        [
+            5, 
+            4
+        ], 
+        [
+            9, 
+            9
+        ], 
+        [
+            13, 
+            10
+        ], 
+        [
+            14, 
+            11
+        ], 
+        [
+            16, 
+            12
+        ]
+    ], 
+    "deptid": 23, 
+    "firstname": "RAY", 
+    "lastname": "JOHNSON", 
+    "roleid": 3, 
+    "userid": 224, 
+    "username": "RJOHNS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d0"
+    }, 
+    "course_semester": [
+        [
+            11, 
+            1
+        ], 
+        [
+            15, 
+            2
+        ]
+    ], 
+    "deptid": 13, 
+    "firstname": "MARY", 
+    "lastname": "MAXWELL", 
+    "roleid": 3, 
+    "userid": 231, 
+    "username": "MMAXWE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d1"
+    }, 
+    "course_semester": [
+        [
+            12, 
+            4
+        ], 
+        [
+            14, 
+            6
+        ], 
+        [
+            15, 
+            7
+        ], 
+        [
+            16, 
+            8
+        ], 
+        [
+            17, 
+            11
+        ], 
+        [
+            18, 
+            12
+        ]
+    ], 
+    "deptid": 28, 
+    "firstname": "DENISE", 
+    "lastname": "WALKER", 
+    "roleid": 3, 
+    "userid": 232, 
+    "username": "DWALKE1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d2"
+    }, 
+    "course_semester": [
+        [
+            4, 
+            11
+        ], 
+        [
+            13, 
+            12
+        ]
+    ], 
+    "deptid": 17, 
+    "firstname": "JOSHUA", 
+    "lastname": "JOHNSON", 
+    "roleid": 3, 
+    "userid": 233, 
+    "username": "JJOHNS1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d3"
+    }, 
+    "course_semester": [
+        [
+            12, 
+            6
+        ], 
+        [
+            13, 
+            8
+        ], 
+        [
+            14, 
+            9
+        ], 
+        [
+            16, 
+            10
+        ], 
+        [
+            17, 
+            11
+        ], 
+        [
+            18, 
+            12
+        ]
+    ], 
+    "deptid": 27, 
+    "firstname": "RANDY", 
+    "lastname": "JAMES", 
+    "roleid": 3, 
+    "userid": 215, 
+    "username": "RJAMES1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d4"
+    }, 
+    "course_semester": [
+        [
+            16, 
+            5
+        ], 
+        [
+            17, 
+            6
+        ]
+    ], 
+    "deptid": 28, 
+    "firstname": "MELINDA", 
+    "lastname": "ANDERSON", 
+    "roleid": 3, 
+    "userid": 216, 
+    "username": "MANDER1"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d5"
+    }, 
+    "course_semester": [
+        [
+            8, 
+            9
+        ], 
+        [
+            11, 
+            10
+        ], 
+        [
+            16, 
+            11
+        ], 
+        [
+            18, 
+            12
+        ]
+    ], 
+    "deptid": 14, 
+    "firstname": "STEVEN", 
+    "lastname": "REYNOLDS", 
+    "roleid": 3, 
+    "userid": 222, 
+    "username": "SREYNO1"
+}
+
+
+PRINTING COURSES!
+
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54c8"
+    }, 
+    "availability": "Fall Only", 
+    "courseid": 1, 
+    "coursename": "Advanced Operating Systems", 
+    "coursenumber": "6210", 
+    "fallterm": 1, 
+    "prereq": 12, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10
+    ], 
+    "springterm": 0, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54cc"
+    }, 
+    "availability": "Spring Only", 
+    "courseid": 5, 
+    "coursename": "High Performance Computer Architecture", 
+    "coursenumber": "6290", 
+    "fallterm": 0, 
+    "semesters": [
+        2, 
+        5, 
+        8, 
+        11
+    ], 
+    "springterm": 1, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54ce"
+    }, 
+    "availability": "Fall Only", 
+    "courseid": 7, 
+    "coursename": "Intro to Health Informatics", 
+    "coursenumber": "6440", 
+    "fallterm": 1, 
+    "prereq": 3, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10
+    ], 
+    "springterm": 0, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d1"
+    }, 
+    "availability": "Spring Only", 
+    "courseid": 10, 
+    "coursename": "Computer Vision", 
+    "coursenumber": "4495", 
+    "fallterm": 0, 
+    "semesters": [
+        2, 
+        5, 
+        8, 
+        11
+    ], 
+    "springterm": 1, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d2"
+    }, 
+    "availability": "Fall Only", 
+    "courseid": 11, 
+    "coursename": "Computational Photography", 
+    "coursenumber": "6475", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10
+    ], 
+    "springterm": 0, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d5"
+    }, 
+    "availability": "Spring Only", 
+    "courseid": 14, 
+    "coursename": "Introduction to Information Security", 
+    "coursenumber": "6035", 
+    "fallterm": 0, 
+    "semesters": [
+        2, 
+        5, 
+        8, 
+        11
+    ], 
+    "springterm": 1, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d6"
+    }, 
+    "availability": "Fall Only", 
+    "courseid": 15, 
+    "coursename": "High-Performance Computing", 
+    "coursenumber": "6220", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10
+    ], 
+    "springterm": 0, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d7"
+    }, 
+    "availability": "Spring Only", 
+    "courseid": 16, 
+    "coursename": "Machine Learning for Trading", 
+    "coursenumber": "7646", 
+    "fallterm": 0, 
+    "prereq": 4, 
+    "semesters": [
+        2, 
+        5, 
+        8, 
+        11
+    ], 
+    "springterm": 1, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d8"
+    }, 
+    "availability": "Fall Only", 
+    "courseid": 17, 
+    "coursename": "Special Topics: Reinforcement Learning", 
+    "coursenumber": "8803", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10
+    ], 
+    "springterm": 0, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d9"
+    }, 
+    "availability": "Spring Only", 
+    "courseid": 18, 
+    "coursename": "Special Topics: Big Data", 
+    "coursenumber": "8803", 
+    "fallterm": 0, 
+    "semesters": [
+        2, 
+        5, 
+        8, 
+        11
+    ], 
+    "springterm": 1, 
+    "summerterm": 0
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d0"
+    }, 
+    "availability": "All", 
+    "courseid": 9, 
+    "coursename": "Knowledge-Based Artificial Intelligence, Cognitive Systems", 
+    "coursenumber": "7637", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10, 
+        2, 
+        5, 
+        8, 
+        11, 
+        3, 
+        6, 
+        9, 
+        12
+    ], 
+    "springterm": 1, 
+    "summerterm": 1
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54ca"
+    }, 
+    "availability": "All", 
+    "courseid": 3, 
+    "coursename": "Software Development Process", 
+    "coursenumber": "6300", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10, 
+        2, 
+        5, 
+        8, 
+        11, 
+        3, 
+        6, 
+        9, 
+        12
+    ], 
+    "springterm": 1, 
+    "summerterm": 1
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54cd"
+    }, 
+    "availability": "All", 
+    "courseid": 6, 
+    "coursename": "Software Architecture and Design", 
+    "coursenumber": "6310", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10, 
+        2, 
+        5, 
+        8, 
+        11, 
+        3, 
+        6, 
+        9, 
+        12
+    ], 
+    "springterm": 1, 
+    "summerterm": 1
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54cf"
+    }, 
+    "availability": "All", 
+    "courseid": 8, 
+    "coursename": "Computability, Complexity and Algorithms", 
+    "coursenumber": "6505", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10, 
+        2, 
+        5, 
+        8, 
+        11, 
+        3, 
+        6, 
+        9, 
+        12
+    ], 
+    "springterm": 1, 
+    "summerterm": 1
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d3"
+    }, 
+    "availability": "All", 
+    "courseid": 12, 
+    "coursename": "Introduction to Operating Systems", 
+    "coursenumber": "8803-002", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10, 
+        2, 
+        5, 
+        8, 
+        11, 
+        3, 
+        6, 
+        9, 
+        12
+    ], 
+    "springterm": 1, 
+    "summerterm": 1
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54d4"
+    }, 
+    "availability": "All", 
+    "courseid": 13, 
+    "coursename": "Artificial Intelligence for Robotics", 
+    "coursenumber": "8803-001", 
+    "fallterm": 1, 
+    "prereq": 9, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10, 
+        2, 
+        5, 
+        8, 
+        11, 
+        3, 
+        6, 
+        9, 
+        12
+    ], 
+    "springterm": 1, 
+    "summerterm": 1
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54c9"
+    }, 
+    "availability": "All", 
+    "courseid": 2, 
+    "coursename": "Computer Networks", 
+    "coursenumber": "6250", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10, 
+        2, 
+        5, 
+        8, 
+        11, 
+        3, 
+        6, 
+        9, 
+        12
+    ], 
+    "springterm": 1, 
+    "summerterm": 1
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca54cb"
+    }, 
+    "availability": "All", 
+    "courseid": 4, 
+    "coursename": "Machine Learning", 
+    "coursenumber": "7641", 
+    "fallterm": 1, 
+    "semesters": [
+        1, 
+        4, 
+        7, 
+        10, 
+        2, 
+        5, 
+        8, 
+        11, 
+        3, 
+        6, 
+        9, 
+        12
+    ], 
+    "springterm": 1, 
+    "summerterm": 1
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d6"
+    }, 
+    "core": [
+        13, 
+        9
+    ], 
+    "elective": [
+        10.11
+    ], 
+    "name": "Computation Perception and Robotics"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d7"
+    }, 
+    "core": [
+        3, 
+        6
+    ], 
+    "elective": [
+        1, 
+        5
+    ], 
+    "name": "Computing Systems"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d8"
+    }, 
+    "core": [
+        13, 
+        9
+    ], 
+    "elective": [
+        17
+    ], 
+    "name": "Interactive Intelligence"
+}
+{
+    "_id": {
+        "$oid": "570010965d554b16d8ca55d9"
+    }, 
+    "core": [
+        4, 
+        16
+    ], 
+    "elective": [
+        18
+    ], 
+    "name": "Machine Learning"
+}

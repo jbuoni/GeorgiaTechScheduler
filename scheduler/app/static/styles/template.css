@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+.header-text {
+  color: white;
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-left: 40%;
+}
+.login-border {
+  border: 1px solid #D8D8D8;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+.logo {
+  width: 200px;
+  display: inline !important;
+}
+.logout {
+  font-size: 12px;
+}
+.content {
+  display: inline;
+}
+html,
+body {
+  height: 100%;
+}
+.wrap {
+  min-height: 100%;
+}
+.main {
+  overflow: auto;
+  padding-bottom: 150px;
+  /* this needs to be bigger than footer height*/
+}
+.footer {
+  position: relative;
+  margin-top: -150px;
+  /* negative value of footer height */
+  height: 150px;
+  clear: both;
+  padding-top: 20px;
+}
+.gi-2x {
+  font-size: 2em;
+}
+.gi-3x {
+  font-size: 3em;
+}
+.gi-4x {
+  font-size: 4em;
+}
+.gi-5x {
+  font-size: 5em;
+}

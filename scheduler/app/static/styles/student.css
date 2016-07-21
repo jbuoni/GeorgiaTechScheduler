@@ -1,0 +1,19 @@
+.info_black {
+  font-size: 16px;
+}
+.grey_text {
+  font-size: 12px;
+  color: grey;
+}
+.student_info {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.icon_padding {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+.add-course-error {
+  color: red;
+  margin-left: 15px;
+}

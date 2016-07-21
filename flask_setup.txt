@@ -1,0 +1,41 @@
+SETUP
+
+1 sudo apt-get install python-pip
+
+2 pip install virtualenv
+
+3 create a new virtualenv for the project (this helps with freezing
+   requirements)
+
+  virtualenv [some_directory_name]
+
+4 clone repo inside virtualenv (alternatively you can initialize a virtualenv
+  in your existing clone of the repo, you'll just have your folders on the same
+  level)
+
+5 activate virtualenv: source bin/activate.py
+
+6 install python dependencies: pip install -r cs6310p3/requirements.txt
+  (this will install flask, etc)
+
+OPTIONALLY
+
+7 install pycharm ... pro edition is free for us and it's amazeballs
+
+8 set pycharm to use virtualenv:
+  
+  file -> settings -> project -> interpreter -> add local
+
+TO RUN THE APP (from cmd line)
+
+   python cs6310/scheduler/runapp.py
+
+   http://127.0.0.1:5000/
+
+OTHER
+
+if you install a new python package, update the requirements.txt:
+  
+  pip freeze > requirements.txt
+
+

@@ -1,0 +1,16 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "template.html" %}
+{% block title %}{{data.username}}{% endblock %}
+{% block head %}
+  {{ super() }}
+  <link href="{{ url_for('static', filename='styles/student.css') }}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <p>{{ data['username'] }}</p>
+        <p>Specialization: {{ data['concentration'] }}</p>
+        <p>Credits Earned: {{ data['credits_earned'] }}</p>
+        <p>GPA: {{ data['gpa'] }}</p>
+        <p>Expected Graduation: {{ data['graduation'] }}</p>
+    </div>
+{% endblock %}

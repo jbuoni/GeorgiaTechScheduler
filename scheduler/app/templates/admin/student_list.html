@@ -1,0 +1,52 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "template.html" %}
+{% block title %}Student Data{% endblock %}
+{% block head %}
+  {{ super() }}
+  <link href="{{ url_for('static', filename='styles/student.css') }}" rel="stylesheet">
+{% endblock %}
+{% block header %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <th>Name</th>
+                    <th>Department ID</th>
+                    <th>Concentration</th>
+                    <th>Credits Earned</th>
+                    <th>GPA</th>
+                    <th>Expected Graduation Date</th>
+                </thead>
+                <tbody>
+                    {% for student in data.students %}
+                        <tr>
+                            <td>
+                                <span class="col-md-3">
+                                    <a href="{{ url_for('main.individualStudentData', username=authData.name, student_id=student.id) }}">{{ student.firstname }} {{ student.lastname }}</a>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="col-md-3">{{ student.deptId }} </span>
+                            </td>
+                            <td>
+                                <span class="col-md-3">{{ student.specialization }} </span>
+                            </td>
+                            <td>
+                                <span class="col-md-3">{{ student.credits }}  </span>
+                            </td>
+                            <td>
+                                <span class="col-md-3">{{ student.gpa }} </span>
+                            </td>
+                            <td>
+                                <span class="col-md-3">{{ student.graduation }} </span>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

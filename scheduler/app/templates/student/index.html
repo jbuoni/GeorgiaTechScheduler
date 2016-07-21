@@ -1,0 +1,180 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "template.html" %}
+{% block title %}Student Information{% endblock %}
+{% block head %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename='scripts/studentInfo.js') }}"></script>
+    <link href="{{ url_for('static', filename='styles/student.css') }}" rel="stylesheet">
+
+    <script type="text/javascript">
+        //Set student data
+        var semester = '{{ data.semester }}';
+        var username = '{{ authData.name}}';
+    </script>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div id="studentInfo" class="student-info">
+        <div class="student_info">
+          <img src="{{ url_for('static', filename='images/Bomberman.gif') }}" class="img-responsive pull-left">
+        </div>
+        <div class="student_info">
+          <span class="info_black">{{data.student_info.firstname}} {{data.student_info.lastname}}</span>
+          <span class="glyphicon glyphicon-camera pull-right"></span>
+        </div>
+        <div class="student_info">
+          <span class="info_black" id="specialization">{{data.specialization}}</span><br>
+          <span class="grey_text">Specialization</span>
+          <span class="glyphicon glyphicon-pencil pull-right"></span>
+        </div>
+        <div class="student_info">
+          <span class="info_black">{{data.student_info.graduation}}</span> <br>
+          <span class="grey_text">Target Graduation Date</span>
+          <span class="glyphicon glyphicon-pencil pull-right"></span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div id="completedCourses">
+        <table class="table">
+          <thead>
+            <th>
+              <span>Completed Courses</span>
+            </th>
+          </thead>
+          <tbody>
+            {% for row in data.completed_courses %}
+                <tr>
+                  <td>{{ row.coursename }}</td>
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <div id="coursePreferences">
+        <table class="table" id="preferencesTable">
+          <thead>
+            <th>
+              <span>Fall 2016 Course Preferences</span>
+              <span id="addPreference" class="glyphicon glyphicon-plus-sign pull-right"></span>
+            </th>
+          </thead>
+          <tbody>
+            {% for row in data.course_preferences %}
+                <tr id="{{row.courseid}}" class="preference-table-row">
+                  <td>
+                    {{ row.coursename }}
+                    <span class="pull-right">
+                      <span class="glyphicon glyphicon-arrow-up icon_padding"></span>
+                      <span class="glyphicon glyphicon-arrow-down icon_padding"></span>
+                      <span class="glyphicon glyphicon-remove icon_padding></span>
+                      <span class="glyphicon glyphicon-remove icon_padding></span>
+                    </span>
+                  </td>
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <div id="solutions">
+        <table class="table">
+          <thead>
+            <th>
+              <span>Solutions</span>
+            </th>
+          </thead>
+          <tbody>
+            {% for row in data.solutions %}
+                <tr>
+                  <td>
+                    {{ row.coursename }}
+                    <span class="glyphicon glyphicon-stats pull-right"></span>
+                  </td>
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <div id="whatIf">
+        <table class="table" id="questionsTable">
+          <thead>
+            <th>
+              <span>Questions</span>
+            </th>
+            <th>
+                <span>Answers</span>
+                <span id="addQuestion" class="glyphicon glyphicon-plus-sign pull-right"></span>
+            </th>
+          </thead>
+          <tbody>
+            {% for row in data.questions %}
+                <tr>
+                  <td>
+                    {{ row.question }}
+                  </td>
+                  <td>
+                        {{ row.answer }}
+                  </td>
+                    <!--<span class="glyphicon glyphicon-ok pull-right"></span>-->
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Questions Modal -->
+<div class="modal fade" id="questionsModal" role="dialog" style="display: none">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Ask Question</h4>
+            </div>
+            <div class="modal-body">
+            <p>Enter your question for administrators.</p>
+                <textarea id="questionTextArea" rows="4" cols="50"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button id="questionBtn" type="button" class="btn btn-default left" data-dismiss="modal">Ask Question</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Courses Modal -->
+<div class="modal fade" id="coursesModal" role="dialog" style="display: none">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Add Course</h4>
+            </div>
+            <div class="modal-body">
+            <p>Select Course</p>
+                <select id="courseAddSelect">
+                  {% for row in data.courses %}
+                      <option value="{{row.courseid}}">{{row.coursename}}</option>
+                  {% endfor %}
+                </select>
+            </div>
+            <div class="add-course-error"></div>
+            <div class="modal-footer">
+                <button type="button" id="courseBtn" class="btn btn-default left">Add Course</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,97 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "template.html" %}
+{% block title %}Administrator Dashboard{% endblock %}
+{% block head %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename='scripts/adminInfo.js') }}"></script>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div id="adminInfo" class="admin-info">
+        <div class="admin_info">
+          <img src="{{ url_for('static', filename='images/Bomberman.gif') }}" class="img-responsive pull-left">
+        </div>
+        <div class="admin_info">
+          <span class="info_black">{{data.firstname}} {{ data.lastname }}</span>
+          <span class="glyphicon glyphicon-camera pull-right"></span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div id="unanswerQuestions">
+        <table class="table" id="unansweredQuestionsTablee">
+          <thead>
+            <th>
+              <span>Unanswered Student Questions</span>
+            </th>
+          </thead>
+          <tbody>
+            {% for q in data.unansweredQuestions %}
+                <tr class="unanswered-question-row">
+                  <td id="{{q.id}}">
+                        {{ q.question }}
+                    </td>
+                    <td id="{{q.id}}answer">
+                        <span class="answer_text"></span>
+                        <span id="{{q.id}}icon" class="pull-right unanswered_question_icon">
+                          <span class="glyphicon glyphicon-ok icon_padding"></span>
+                        </span>
+                    </td>
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+    <div id="answerQuestions">
+        <table class="table" id="answeredQuestionsTablee">
+          <thead>
+            <th>
+              <span>Answered Student Questions</span>
+            </th>
+          </thead>
+          <tbody>
+            {% for aQ in data.answeredQuestions %}
+                <tr class="answered-question-row">
+                    <td id="{{aQ.id}}">
+                        {{ aQ.question }}
+                    </td>
+                    <td id="{{aQ.id}}answer">
+                        <span class="answer_text">
+                            {{ aQ.answer }}
+                        </span>
+                        <span class="pull-right">
+                          <span class="glyphicon glyphicon-ok icon_padding"></span>
+                        </span>
+                    </td>
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Questions Modal -->
+<div class="modal fade" id="questionModal" role="dialog" style="display: none">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Answer Question</h4>
+            </div>
+            <div class="modal-body">
+            <p id="questionModalQuestionText"></p>
+                <textarea id="questionTextArea" rows="4" cols="50"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button id="questionBtn" type="button" class="btn btn-default left" data-dismiss="modal">Answer</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

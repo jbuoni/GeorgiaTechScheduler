@@ -1,0 +1,26 @@
+{% extends "template.html" %}
+{% block title %}Student Information - {{  user.id }}{% endblock %}
+{% block head %}
+  {{ super() }}
+    <link href="{{ url_for('static', filename='styles/login.css') }}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+
+    <p>{{ user.id }}</p>
+    <p>Specialization: {{ data.student_info['concentration'] }}</p>
+    <p>Credits Earned: {{ data.student_info['credits earned'] }}</p>
+    <p>GPA: {{ data.student_info['gpa'] }}</p>
+    <p>Expected Graduation: {{ data.student_info['graduation'] }}</p>
+    <p>Completed Courses:
+        <ul>
+        {% for course in data.completed_courses %}
+            <li>{{ course }}</li>
+        {% endfor %}
+        </ul>
+    <p>Requested Courses:
+        <ul>
+        {% for course in data.course_preferences %}
+            <li>{{ course }}</li>
+        {% endfor %}
+        </ul>
+{% endblock %}
